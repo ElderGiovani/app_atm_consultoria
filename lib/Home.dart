@@ -52,11 +52,11 @@ class _HomeState extends State<Home> {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   GestureDetector(
-                    onTap: () => _abrirEmpresa,
+                    onTap: _abrirEmpresa,
                     child: Image.asset('imagens/menu_empresa.png'),
                   ),
                   GestureDetector(
-                    onTap: () => _abrirServico,
+                    onTap: _abrirServico,
                     child: Image.asset('imagens/menu_servico.png'),
                   )
                 ],
@@ -68,11 +68,11 @@ class _HomeState extends State<Home> {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   GestureDetector(
-                    onTap: () => _abrirCliente,
+                    onTap: _abrirCliente,
                     child: Image.asset('imagens/menu_cliente.png'),
                   ),
                   GestureDetector(
-                    onTap: () => _abrirContato,
+                    onTap: _abrirContato,
                     child: Image.asset('imagens/menu_contato.png'),
                   )
                 ],
